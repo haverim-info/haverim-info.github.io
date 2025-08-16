@@ -54,7 +54,6 @@ main {
 
 .whatsapp-link {
   color: #25d366;
-  font-size: 1.5em;
   margin-right: 10px;
   vertical-align: middle;
 }
@@ -98,7 +97,7 @@ footer a:hover {
   }
 
   .whatsapp-link {
-    font-size: 1.3em;
+    margin-right: 10px;
   }
 }
 
