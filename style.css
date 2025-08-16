@@ -1,0 +1,96 @@
+/* כללי */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #003366;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* כותרת עליונה */
+header {
+  text-align: center;
+  background-color: #e0f0ff;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 120px;
+  height: auto;
+}
+
+h1 {
+  margin: 10px 0 0;
+  font-size: 2em;
+}
+
+/* תוכן מרכזי */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.center-message {
+  max-width: 600px;
+  text-align: center;
+}
+
+.help-text {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.whatsapp-link {
+  color: #25d366;
+  font-size: 1.5em;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.tip {
+  font-style: italic;
+  color: #004080;
+  margin-bottom: 20px;
+}
+
+.about {
+  font-size: 1em;
+  color: #333;
+}
+
+/* תחתית */
+footer {
+  text-align: center;
+  background-color: #e0f0ff;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #003366;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* רספונסיביות לנייד */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .help-text {
+    font-size: 1.2em;
+  }
+
+  .whatsapp-link {
+    font-size: 1.3em;
+  }
+}
