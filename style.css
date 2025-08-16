@@ -86,6 +86,24 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* Accessibility Page Styles */
+.accessibility-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.accessibility-text {
+  max-width: 600px;
+  font-size: 1.3em;
+  color: #003366;
+  text-align: center;
+}
+
+
 /* רספונסיביות לנייד */
 @media (max-width: 600px) {
   h1 {
@@ -98,6 +116,10 @@ footer a:hover {
 
   .whatsapp-link {
     margin-right: 10px;
+  }
+  
+  .accessibility-text {
+    font-size: 1.5em; 
   }
 }
 
