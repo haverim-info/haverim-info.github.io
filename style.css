@@ -67,13 +67,6 @@ main {
   text-decoration: none; 
 }
 
-.forum-link img.whatsapp-icon {
-  width: 20px;
-  height: 20px;
-  /* מרווח בין התמונה לטקסט */
-  margin: 0 10px;
-}
-
 .forum-link span {
   font-size: 1em;
   color: #333;
