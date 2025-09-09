@@ -58,6 +58,25 @@ main {
   vertical-align: middle;
 }
 
+.forum-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+
+.forum-link img.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  /* מרווח בין התמונה לטקסט */
+  margin: 0 10px;
+}
+
+.forum-link span {
+  font-size: 1em;
+  color: #333;
+}
+
 .tip {
   font-style: italic;
   color: #004080;
