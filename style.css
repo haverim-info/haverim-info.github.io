@@ -69,7 +69,8 @@ main {
 
 .forum-link span {
   font-size: 1em;
-  color: #333;
+  color: #0000FF;
+  text-decoration: underline;
 }
 
 .tip {
