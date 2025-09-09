@@ -21,13 +21,6 @@ header {
   height: auto;
 }
 
-.whatsapp-icon {
-  width: 48px;
-  height: 48px;
-  vertical-align: middle;
-  margin-right: 8px;
-}
-
 h1 {
   margin: 10px 0 0;
   font-size: 2em;
@@ -52,8 +45,17 @@ main {
   margin-bottom: 20px;
 }
 
+.whatsapp-icon {
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
 .whatsapp-link {
   color: #25d366;
+  margin-left: 10px;
   margin-right: 10px;
   vertical-align: middle;
 }
